@@ -9,13 +9,21 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     />
-    <script type="module" crossorigin src="/goit-advancedjs-hw-01/index.js"></script>
+    <script type="module" crossorigin src="/goit-advancedjs-hw-01/2-form.js"></script>
     <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-01/assets/styles-CXc8u27R.js">
-    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-01/assets/vendor-CgTBfC_f.js">
     <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-01/assets/styles-C4KeoJ2K.css">
-    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-01/assets/vendor-DkczhqSJ.css">
   </head>
   <body>
-    <ul class="gallery"></ul>
+    <form class="feedback-form" autocomplete="off">
+      <label>
+        Email
+        <input type="email" name="email" placeholder="Type Your Email" />
+      </label>
+      <label>
+        Message
+        <textarea name="message" placeholder="Type Message" rows="8"></textarea>
+      </label>
+      <button type="submit">Submit</button>
+    </form>
   </body>
 </html>
