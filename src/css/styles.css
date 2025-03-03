@@ -44,7 +44,8 @@ ul {
   height: 100%;
   object-fit: cover;
 }
-test .feedback-form {
+
+.feedback-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
